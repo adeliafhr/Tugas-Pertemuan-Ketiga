@@ -1,4 +1,4 @@
-# ABSTRACT, OVVERRIDE, OVERLOAD
+# ABSTRACT, OVERRIDE, OVERLOAD
 ## Abstract 
 Abstract dalam Java adalah salah satu fitur penting dalam pemrograman berorientasi objek (OOP). Konsep ini memungkinkan Anda untuk mendefinisikan kelas dan metode yang tidak diimplementasikan secara langsung dan memberikan kerangka kerja untuk kelas turunan.
 ## Apa itu abstract class? 
