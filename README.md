@@ -1,5 +1,5 @@
 # ABSTRACT, OVERRIDE, OVERLOAD
-## 1. Abstract 
+# 1. Abstract 
 Abstract dalam Java adalah salah satu fitur penting dalam pemrograman berorientasi objek (OOP). Konsep ini memungkinkan Anda untuk mendefinisikan kelas dan metode yang tidak diimplementasikan secara langsung dan memberikan kerangka kerja untuk kelas turunan.
 ## Apa itu abstract class? 
 Abstract class merupakan kelas yang tidak dapat diinstansiasi atau dibuat objeknya secara langsung. Abstract class digunakan sebagai kerangka kerja dasar yang dapat digunakan untuk membuat kelas turunan atau subclass. Abstract class sendiri tidak dapat digunakan untuk membuat objek, namun hanya berfungsi sebagai kerangka kerja untuk kelas turunan yang diturunkan darinya.
@@ -16,7 +16,7 @@ Abstract class merupakan kelas yang tidak dapat diinstansiasi atau dibuat objekn
 </pre>
 Dalam kode ini kita buat class abstract Pabrik dan buat method abstract yaitu memproduksi(); yang tidak dapat di implementasi, namun dapat di implementasi pada subclass. Dalam kode ini kita juga membuat method biasa yaitu model. Metode ini dapat dipanggil oleh objek yang dibuat dari kelas yang mewarisi Pabrik.
 
-## 2. Override
+# 2. Override
 Method overriding adalah sebuah situasi dimana method class turunan menimpa method milik parent class. Ini bisa terjadi jika terdapat nama method yang sama baik di child class dan juga parent class.
 ## Berikut adalah source code dari method override
 <pre>
@@ -47,7 +47,7 @@ Kelas ini bernama PerangkatElektronik dan merupakan subclass dari kelas Pabrik. 
     }
 </pre>
     
-## 3. Overload
+# 3. Overload
 Method overloading adalah fitur dalam Java yang memungkinkan kita untuk mendefinisikan beberapa metode dengan nama yang sama tetapi dengan parameter yang berbeda dalam satu kelas.
 ## Berikut adalah source code dari method overload
 <pre>
